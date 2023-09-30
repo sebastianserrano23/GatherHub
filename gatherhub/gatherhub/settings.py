@@ -1,4 +1,3 @@
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # my apps
-    'core',
+    'core', # back end with django
+    'react', # front end with react
 ]
 
 MIDDLEWARE = [

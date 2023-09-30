@@ -1,6 +1,9 @@
 from django.contrib import admin
 
-from gatherhub.core.models import Conference
 from .models import Conference
 
-admin.site.register(Conference)
+register_these = [Conference]
+
+for these_nuts in register_these:
+    admin.site.register(these_nuts)
+
